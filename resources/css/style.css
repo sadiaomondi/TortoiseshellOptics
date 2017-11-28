@@ -1,0 +1,429 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.site-container {
+  margin: 0 auto;
+}
+
+header {
+  background-color: cadetblue;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.head {
+  padding-top: 1rem;
+}
+
+.title {
+  font-size: 1rem;
+  display: flex;
+  padding-left: 2rem;
+align-items: center;
+
+}
+
+.title img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.nav {
+  display: flex;
+
+}
+
+.nav span {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+#menu {
+  display: none;
+}
+
+.banner {
+  height: 31rem;
+  top: 0;
+
+}
+
+.banner, .main-banner {
+  background-image: url("../images/glasses-bg.png"
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: visible;
+  width: 100%;
+}
+
+.banner-text {
+  max-width: 960px;
+  padding-top: 10rem;
+
+  margin: 0 auto;
+  padding-left: 2rem;;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.announcement {
+  background-color: white;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+}
+
+.services-container {
+  margin: 0 auto;
+}
+
+.services {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.examinations {
+  width: 7rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 6rem;
+}
+
+.examinations-text p {
+  text-align: center;
+  line-height: 1.4;
+}
+
+.image1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  margin: 0 auto;
+}
+
+.image1 img {
+  width: 3.5rem;
+}
+
+.fittings {
+  width: 5rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 6rem;
+}
+
+.image2 img {
+  width: 5rem;
+  margin: 0 auto;
+}
+
+.image2 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+}
+
+.fittings-text p {
+  text-align: center;
+  line-height: 1.4;
+}
+
+.delivery {
+  width: 5rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 6rem;
+}
+
+.image3 img {
+  width: 5rem;
+  margin: 0 auto;
+}
+
+.image3 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+}
+
+.delivery-text p {
+    text-align: center;
+    line-height: 1.4;
+}
+
+.about-us {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.belief {
+  width: 35%;
+  padding-right: 5%;
+  line-height: 1.4;
+}
+
+.belief h3 {
+  font-weight: bold;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+.reach-us {
+  width: 35%;
+  line-height: 1.4;
+}
+
+.reach-us h3 {
+  font-weight: bold;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: azure;
+
+}
+
+.footer {
+  padding: 4rem 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-image img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+/* tablet styles */
+
+@media only screen and (max-width: 1024px)  {
+
+  .site-container {
+    width: 100%;
+  }
+
+  .head {
+    padding-top: 0rem;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .announcement {
+    font-size: 1.33rem;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0.75rem 4rem;
+    font-weight: bold;
+  }
+
+  .banner-text {
+    padding-right: 2rem;
+    padding-left: 0rem;
+  }
+
+  .banner {
+    height: 22rem;
+  }
+
+  .about-us {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* mobile styles */
+
+@media only screen and (max-width: 800px)
+ {
+
+   .title p {
+     display: none;
+   }
+
+   .nav span {
+     display: none;
+   }
+
+   #menu {
+     display: inline-flex;
+   }
+
+   .banner {
+     height: 17rem;
+   }
+
+   .banner, .main-banner {
+     background-position: 20%
+   }
+
+   .banner-text {
+     padding-top: 9rem;
+     margin: 0 auto;
+     width: 100%;
+     text-align: center;
+   }
+
+   .announcement {
+    padding: 1rem 0rem;
+    width: 100%;
+    font-size: 1rem;
+   }
+
+   .services-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .services {
+     display: flex;
+     margin: 0 auto;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding-top: 3.77rem;
+     padding-bottom: 3.77rem;
+   }
+
+   .services p {
+     font-size: 0.77rem;
+   }
+
+   .examinations {
+     padding-right: 0rem;
+     margin-bottom: 1.54rem;
+     height: auto;
+   }
+
+   .examinations p {
+     font-size: 0.77rem;
+   }
+
+   .image1 {
+     padding-bottom: 1.54rem;
+   }
+
+   .fittings {
+     padding-right: 0rem;
+     margin-bottom: 1.54rem;
+     height: auto;
+   }
+
+   .fittings p {
+     font-size: 0.77rem;
+   }
+
+   .image2 {
+     padding-bottom: 1.54rem;
+   }
+
+   .delivery {
+     padding-right: 0rem;
+     height: auto;
+   }
+
+   .delivery p {
+     font-size: 0.77rem;
+   }
+
+   .image3 {
+     padding-bottom: 1.54rem;
+   }
+
+   .about-us {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .belief {
+     width: 100%;
+     margin-bottom: 4rem;
+   }
+
+   .reach-us {
+     width: 100%;
+   }
+
+   .belief h3 {
+     width: 100%;
+     padding: 0.5rem 0;
+     text-align: center;
+   }
+
+   .reach-us h3 {
+     width: 100%;
+     padding: 0.5rem 0;
+     text-align: center;
+   }
+
+   .footer-text p {
+     display: none;
+   }
+
+   .footer-image img {
+     padding-right: 0rem;
+   }
+
+   .footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .belief p {
+     padding-left: 0.5rem;
+     padding-right: 0.5rem;
+     font-size: 0.77rem;
+   }
+
+   .reach-us p {
+     padding-left: 0.5rem;
+     padding-right: 0.5rem;
+     font-size: 0.77rem;
+   }
+}
